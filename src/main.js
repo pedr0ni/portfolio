@@ -5,6 +5,9 @@ import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
+import Preloader from './components/Preloader'
+Vue.component('m-preloader', Preloader);
+
 new Vue({
   router,
   render: function (h) { return h(App) }
