@@ -70,10 +70,6 @@ export default {
 			}
 
 			headerMenu.classList.toggle('active');
-
-			for (let i = 0; i < allSections.length; i++) {
-				allSections[i].classList.toggle('blurred');
-			}
 		}
 	},
 	mounted() {
